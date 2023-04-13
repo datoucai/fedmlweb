@@ -1,0 +1,102 @@
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #e6e6e6;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+html {
+    --fontType: 'Noto Sans SC';
+    --fontType2: 'SourceHanSansCN-Normal';
+    --fontType3: 'SourceHanSansCN-Regular';
+    --fontMedium: 500;
+    --fontRegular: 400;
+    --fontHeavy: 900;
+}
+
+.SourceHanSansCN-Normal {
+    font-family: var(--fontType2);
+}
+.SourceHanSansCN-Regular {
+    font-family: var(--fontType3);
+}
+.fontMedium {
+    font-family: var(--fontType);
+    font-weight: var(--fontMedium);
+}
+
+.fontRegular {
+    font-family: var(--fontType);
+    font-weight: var(--fontRegular);
+}
+
+.fontBold {
+    font-family: var(--fontType);
+    font-weight: bold;
+}
+
+.fontHeavy {
+    font-family: var(--fontType);
+    font-weight: var(--fontHeavy);
+}
+
+.lh-1 {
+    line-height: 1;
+}
+
+.lh-1-1 {
+    line-height: 1.1;
+}
+
+.lh-1-2 {
+    line-height: 1.2;
+}
+
+.lh-1-3 {
+    line-height: 1.3;
+}
+
+.lh-1-4 {
+    line-height: 1.4;
+}
+
+.lh-1-5 {
+    line-height: 1.5;
+}
+
+.lh-1-7 {
+    line-height: 1.7;
+}
+
+.fs-0 {
+    font-size: 0;
+}
+
+.inLB {
+    display: inline-block;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.va-m {
+    vertical-align: middle;
+}
+
+.flexTxtOverflow {
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

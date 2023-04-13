@@ -1,0 +1,441 @@
+body {
+	margin: 0px;
+	height: 100vh;
+	width: 100%;
+	overflow:-moz-scrollbars-none;
+	-moz-user-select:none;/*火狐禁止选中文字*/
+    -webkit-user-select:none;/*webkit浏览器禁止选中文字*/
+    -ms-user-select:none;/*IE10禁止选中文字*/
+    -khtml-user-select:none;/*早期浏览器禁止选中文字*/
+  	user-select:none; /*禁止选中文字*/
+}
+
+#app {
+	min-width: 1400px;
+	margin-top: 0px !important;
+	height: 100%;
+}
+
+/*隐藏数字框的上下箭头*/
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+.el-message__icon {
+	font-size: 0.25rem;
+}
+.el-select-dropdown__item {
+	font-size: 0.15rem !important;
+	height: 0.39rem !important;
+	line-height: 0.39rem !important;
+}
+.el-select-dropdown__empty {
+	font-size: 0.15rem !important;
+}
+
+.table-btns {
+	display: flex;
+}
+.btns {
+	padding: 0 0.1rem;
+	height: 0.4rem;
+	font-family: SourceHanSansCN-Regular;
+	font-size: 0.16rem;
+	line-height: 0.4rem;
+	text-align: center;
+	cursor: pointer;
+	background: #F7F7F7;
+	letter-spacing: 0.53px;
+}
+.edit-btn {
+	color: #0F5AEB;
+}
+.del-btn {
+	color: #EB490F;
+	margin-left: 0.1rem;
+}
+.tip-dialog {
+    font-size: 0.14rem;
+    color: #f2572c;
+    letter-spacing: 0.53px;/*no*/
+    line-height: 0.14rem;
+    position: absolute;
+    top: 25px;
+    left: 135px;
+}
+
+
+/*全选清空*/
+.select-all {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 0.14rem;
+    color: #0F5AEB;
+    letter-spacing: 0.4px;
+    line-height: 0.14rem;
+    cursor: pointer;
+}
+.clear-all {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 0.14rem;
+    color: #3f3f3f;
+    letter-spacing: 0.4px;
+    line-height: 0.14rem;
+    cursor: pointer;
+}
+.select-clear {
+    width: 1px;
+    height: 0.14rem;
+    background: #3f3f3f;
+    margin: 0px 5px;
+}
+.select-all-dia {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 14px;
+    color: #0F5AEB;
+    letter-spacing: 0.4px;
+    line-height: 14px;
+    cursor: pointer;
+}
+.clear-all-dia {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 14px;
+    color: #3f3f3f;
+    letter-spacing: 0.4px;
+    line-height: 14px;
+    cursor: pointer;
+}
+.select-clear-dia {
+    width: 1px;
+    height: 14px;
+    background: #3f3f3f;
+    margin: 0px 5px;
+}
+
+.el-loading-mask {
+	z-index: 200 !important;
+}
+
+
+/*V4管理台*/
+.m-main {
+    background: #f4f5f9;
+    height: calc(100vh - 0.75rem);
+}
+.clear-both {
+    clear: both;
+}
+.content-block {
+    overflow-y: auto;
+    max-height: calc(100% - .98rem);
+}
+.border-raduis-0 {
+    border-radius: 0 !important;
+}
+.fixed-div {
+    position: fixed;
+}
+.relative-div {
+    position: relative;
+}
+.absolute-div {
+    position: absolute;
+}
+.move {
+    cursor: move !important; 
+}
+.point {
+    cursor: pointer !important; 
+}
+.not-allowed {
+    cursor: not-allowed !important; 
+}
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+}
+.align-center {
+    text-align: center;
+}
+.max-btn-width {
+    width: 3rem;
+    margin: 0 auto;
+}
+.relative {
+    position: relative;
+}
+.hidden {
+    overflow: hidden;
+}
+.inline-block {
+    display: inline-block;
+}
+.float-left {
+    float: left;
+}
+.break-all {
+    word-break: break-all;
+}
+
+/*暂无内容*/
+.empty-content {
+    height: calc(2.4rem + 2px);
+    margin-top: 1.5rem;
+}
+.empty-content > img,
+.empty-content-small > img {
+    display: block;
+    height: 1.2rem;
+    margin:0 auto;
+}
+.empty-content > p,.empty-content-small > p,.empty-content-mini > p {
+    margin: .15rem 0;
+    color: #777;
+    font-size: .18rem;
+    height: .2rem;
+    line-height: .2rem;
+}
+.empty-content-small {
+    margin-top: .2rem;
+}
+.empty-content-mini {
+    margin-top: .1rem;
+}
+.empty-content-mini > img {
+    display: block;
+    height: .8rem;
+    margin:0 auto;
+}
+
+/*上传文件*/
+.file-upload-btn {
+    display: inline-block !important;
+    color: #fff !important;
+    border-radius: 2px !important;
+    height: 33px !important;
+    padding: 0 0.15rem !important;
+    line-height: 33px !important;
+    text-align: center !important;
+    border: 0 !important;
+    cursor: pointer !important;
+}    
+.file-upload-btn.start-upload {
+    background: green !important;
+}
+.file-upload-btn#global-uploader-btn{
+    background-color:#0E50E1 !important;
+}
+.tip-error-provide {
+    line-height: .15rem;
+    font-size: .15rem;
+    margin-top: .05rem;
+}
+.samefile {
+    font-size: 13px;
+    line-height: 14px;
+    margin: 10px 0;   
+}
+.samefile i {
+    margin-right: 5px;
+    color: green;
+    font-size: 14px;
+}
+
+
+.test-record-table {
+    border-color: #eee;
+    border-collapse: collapse;
+}
+.test-record-table thead th {
+    color: #000;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-break: break-all;
+    line-height: 23px;
+    padding: 8px .1rem;
+}
+.test-record-table tbody td {
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-break: break-all;
+    line-height: 23px;
+    padding: 8px .1rem;
+}
+
+.can-copy {
+    user-select:text;
+}
+
+
+/*自定义表格样式*/
+.out-tb {
+    overflow: auto;
+    max-height: 240px;
+    width: 100%;
+    margin-top: .2rem;
+}
+.out-tb::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #fff; /* or add it to the track */
+}
+.out-tb::-webkit-scrollbar-thumb {
+    background: #e6e6e6;
+}
+.table-head-common {
+    width: 100%;
+    display: flex;
+    height: 0.38rem;
+}
+.one-head {
+    flex: 1;
+    background: #E5E5E5;
+    height: 100%;
+    font-size: 0.13rem;
+    color: #1D1D1F;
+    letter-spacing: 0.4px;
+    text-align: center;
+    line-height: 0.38rem;
+}
+.one-head-btn {
+    background: #0F5AEB;
+    margin-left: 5px;
+    height: 100%;
+    max-width: 0.5rem;
+    min-width: 0.5rem;
+    width: 0.5rem;
+    cursor: pointer;
+}
+.out-tb .one-head,
+.out-tb .one-body {
+    white-space: nowrap;
+    padding: 0 0.05rem;
+    width: calc((3.7rem - 8px) / 3 - 0.1rem);
+    float: left;
+    flex: none;
+}
+.out-tb .one-body {
+    background: #fff;
+    border-top: 1px solid #EBECEC;
+    border-bottom: 1px solid #EBECEC;
+}
+.out-tb .one-body:first-child {
+    border-left: 1px solid #EBECEC
+}
+.out-tb .one-body:last-child {
+    border-right: 1px solid #EBECEC
+}
+.one-head-btn > img {
+    width: 0.2rem;
+    height: 0.2rem;
+    display: block;
+    max-width: 0.2rem;
+    min-width: 0.2rem;
+    margin: 0.09rem auto;
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+.out-tb .table-body-common {
+    background: transparent;
+}
+.table-body-common {
+    width: 100%;
+    display: flex;
+    height: 0.38rem;
+    background: #F9F9F9;
+    border: 1px solid #EBECEC;
+    margin-top: 0.05rem;
+}
+.table-body-common-auto-height {
+    width: 100%;
+    display: flex;
+    background: #F9F9F9;
+    border: 1px solid #EBECEC;
+    margin-top: 0.05rem;
+}
+.out-tb .table-body-common {
+    border:0px;
+}
+.table-body-common-2 {
+    width: 100%;
+    display: flex;
+    height: 0.42rem;
+    margin-top: 0.05rem;
+}
+.table-body-common-2 .el-input__icon {
+    line-height: 0.38rem;
+}
+.one-body {
+    flex: 1;
+    height: 100%;
+    font-size: 0.13rem;
+    color: #1D1D1F;
+    letter-spacing: 0.4px;
+    text-align: center;
+    line-height: 0.38rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.one-body-auto-height {
+    flex: 1;
+    font-size: 0.13rem;
+    color: #1D1D1F;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+.one-body-btn {
+    height: 100%;
+    max-width: 0.5rem;
+    min-width: 0.5rem;
+    width: 0.5rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.one-body-btn2 {
+    height: 0.3rem;
+    max-width: 0.5rem;
+    min-width: 0.5rem;
+    width: 0.5rem;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #fff;
+    line-height: 0.3rem;
+}
+.one-body-btn > img {
+    width: 0.16rem;
+    height: 0.16rem;
+    display: block;
+    max-width: 0.16rem;
+    min-width: 0.16rem;
+    margin: 0.11rem auto;
+}
+
+.common-search {
+    width:3rem !important;
+}
+.max-100-hidden {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.border-b {
+    border-bottom: 1px dashed #e6e9eb;
+    padding-bottom: 5px;
+}
+.nowrap {
+    white-space: nowrap;
+}

@@ -1,0 +1,81 @@
+html {
+  --white: white;
+  --black: black;
+  
+  --main-bg: #e9eef5;
+  --under-main-bg: #f3f3f3;
+  --f7-bg:#f7f7f7;
+
+  --main-tone:#0f5bea;
+  --main-color: #255CE9;
+  --primary-color: #255CE9;
+  --waring-color: #E96825;
+  --danger-color: #f56c6c;
+  --info-color: #909399;
+  --success-color:#67C23A;
+  --main-title-color: #333;
+  --waring-title-color:#f2572c;
+
+  --custom-p:#1d1d1f;
+}
+.main-tone {
+  color: var(--main-tone);
+}
+.custom-p {
+  color: var(--custom-p);
+}
+.c-waring-p {
+  color: var(--waring-title-color) !important;
+}
+.c-white {
+  color: var(--white);
+}
+
+.c-black {
+  color: var(--black);
+}
+
+.c-main {
+  color: var(--main-color);
+}
+
+.c-primary {
+  color: var(--primary-color);
+}
+.c-success {
+  color: var(--success-color);
+}
+.c-waring {
+  color: var(--waring-color);
+}
+
+.c-danger {
+  color: var(--danger-color);
+}
+
+.c-info {
+  color: var(--info-color);
+}
+
+.c-main-title {
+  color: var(--main-title-color);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.bg-main {
+  background-color: var(--main-bg);
+}
+.bg-f7 {
+  background-color: var(--f7-bg);
+}
+
+.bg-under-main {
+  background-color: var(--under-main-bg);
+}

@@ -1,0 +1,285 @@
+.pad-0 {
+	padding: 0 !important;
+}
+.pad-5 {
+	padding: .05rem !important;
+}
+.pad-10 {
+	padding: .1rem !important;
+}
+.pad-15 {
+	padding: .15rem !important;
+}
+.pad-20 {
+	padding: .2rem !important;
+}
+.pad-25 {
+	padding: .25rem !important;
+}
+.pad-30 {
+	padding: .3rem !important;
+}
+.pad-t-20 {
+	padding-top: .2rem !important;
+}
+.pad-t-25 {
+	padding-top: .25rem !important;
+}
+.pad-l-15 {
+	padding-left: .15rem !important;
+}
+.pad-r-15 {
+	padding-right: .15rem !important;
+}
+.pad-b-15 {
+	padding-bottom: .15rem !important;
+}
+.pad-tb-5 {
+	padding: .05rem 0 !important;
+}
+.pad-tb-15 {
+	padding: .15rem 0 !important;
+}
+.pad-tb-20 {
+	padding: .2rem 0 !important;
+}
+.pad-tb-50 {
+	padding: .5rem 0 !important;
+}
+.pad-lr-5 {
+	padding: 0 .05rem !important;
+}
+.pad-lr-10 {
+	padding: 0 .1rem !important;
+}
+.pad-lr-20 {
+	padding: 0 .2rem !important;
+}
+.pad-lr-30 {
+	padding: 0 .3rem !important;
+}
+.pad-lrb-25 {
+	padding: 0 .25rem .25rem .25rem !important;
+}
+.pad-15-30 {
+	padding: .15rem .3rem !important;
+}
+.mar-tb-5 {
+	margin: .05rem 0 !important;
+}
+.mar-tb-10 {
+	margin: .1rem 0 !important;
+}
+.mar-tb-15 {
+	margin: .15rem 0 !important;
+}
+.mar-tb-20 {
+	margin: .2rem 0 !important;
+}
+.mar-lr-10 {
+	margin: 0 .1rem !important;
+}
+.mar-lr-15 {
+	margin: 0 .15rem !important;
+}
+.mar-lr-20 {
+	margin: 0 .2rem !important;
+}
+.mar-5-10 {
+	margin: .05rem .1rem !important;
+}
+.mar-10 {
+	margin: .1rem !important;
+}
+.mar-15 {
+	margin: .15rem !important;
+}
+.mar-20 {
+	margin: .2rem !important;
+}
+.mar-25 {
+	margin: .25rem !important;
+}
+.mar-30 {
+	margin: .3rem !important;
+}
+.mar-t-5-px {
+	margin-top: 5px !important;
+}
+.mar-b-0 {
+	margin-bottom: 0 !important;
+}
+.mar-b-5-px {
+	margin-bottom: 5px !important;
+}
+.mar-t-0 {
+	margin-top: 0 !important;
+}
+.mar-t-3 {
+	margin-top: .03rem !important;
+}
+.mar-t-5 {
+	margin-top: .05rem !important;
+}
+.mar-t-10 {
+	margin-top: .1rem !important;
+}
+.mar-t-15 {
+	margin-top: .15rem !important;
+}
+.mar-t-20 {
+	margin-top: .2rem !important;
+}
+.mar-t-25 {
+	margin-top: .25rem !important;
+}
+.mar-t-30 {
+	margin-top: .3rem !important;
+}
+.mar-t-40 {
+	margin-top: .4rem !important;
+}
+.mar-t-50 {
+	margin-top: .5rem !important;
+}
+.mar-t-140 {
+	margin-top: 1.4rem !important;
+}
+.mar-b-5 {
+	margin-bottom: .05rem !important;
+}
+.mar-b-8 {
+	margin-bottom: .08rem !important;
+}
+.mar-b-10 {
+	margin-bottom: .1rem !important;
+}
+.mar-b-15 {
+	margin-bottom: .15rem !important;
+}
+.mar-b-20 {
+	margin-bottom: .2rem !important;
+}
+.mar-b-25 {
+	margin-bottom: .25rem !important;
+}
+.mar-b-30 {
+	margin-bottom: .3rem !important;
+}
+.mar-b-40 {
+	margin-bottom: .4rem !important;
+}
+.mar-b-140 {
+	margin-bottom: 1.4rem !important;
+}
+.mar-l-0 {
+	margin-left: 0 !important;
+}
+.mar-l-3 {
+	margin-left: .03rem !important;
+}
+.mar-l-5 {
+	margin-left: .05rem !important;
+}
+.mar-l-8 {
+	margin-left: .08rem !important;
+}
+.mar-l-10 {
+	margin-left: .1rem !important;
+}
+.mar-l-15 {
+	margin-left: .15rem !important;
+}
+.mar-l-20 {
+	margin-left: .2rem !important;
+}
+.mar-l-25 {
+	margin-left: .25rem !important;
+}
+.mar-l-30 {
+	margin-left: .3rem !important;
+}
+.mar-l-50 {
+	margin-left: .5rem !important;
+}
+.mar-l-55 {
+	margin-left: .55rem !important;
+}
+.mar-l-100 {
+	margin-left: 1rem !important;
+}
+.mar-l-120 {
+	margin-left: 1.2rem !important;
+}
+.mar-l-140 {
+	margin-left: 1.4rem !important;
+}
+.mar-r-0 {
+	margin-right: 0 !important;
+}
+.mar-r-3 {
+	margin-right: .03rem !important;
+}
+.mar-r-5 {
+	margin-right: .05rem !important;
+}
+.mar-r-8 {
+	margin-right: .08rem !important;
+}
+.mar-r-10 {
+	margin-right: .1rem !important;
+}
+.mar-r-15 {
+	margin-right: .15rem !important;
+}
+.mar-r-20 {
+	margin-right: .2rem !important;
+}
+.mar-r-25 {
+	margin-right: .25rem !important;
+}
+.mar-r-30 {
+	margin-right: .3rem !important;
+}
+.mar-r-100 {
+	margin-right: 1rem !important;
+}
+.mar-r-120 {
+	margin-right: 1.2rem !important;
+}
+.mar-r-140 {
+	margin-right: 1.4rem !important;
+}
+
+/*vh*/
+.mar-t-40vh {
+	margin-top: 40vh;
+}
+.mar-t-45vh {
+	margin-top: 45vh;
+}
+
+/*width*/
+.width-45 {
+	width: 45%;
+}
+.width-100 {
+	width: 100%;
+}
+.width-120 {
+	width: 1.2rem !important;
+}
+.width-130 {
+	width: 1.3rem !important;
+}
+.width-140 {
+	width: 1.4rem !important;
+}
+.width-240 {
+	width: 2.4rem !important;
+}
+
+/*height*/
+.height-100 {
+	height: 100%;
+}

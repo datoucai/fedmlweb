@@ -1,0 +1,13 @@
+@mixin textOverflow($num: 2) {
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: $num;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+$HtmlFontSize:19.2;
+@function px2rem($px) {
+  @return calc(($px / $HtmlFontSize) * 1rem);
+}

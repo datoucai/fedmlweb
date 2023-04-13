@@ -1,0 +1,289 @@
+/*统一table样式*/
+.el-table {
+	color: #515151 !important;
+}
+.el-table th {
+    color: #000;
+    padding: 15px 0 !important;
+}
+.el-table td {
+    padding: 12px 0 !important;
+    border-bottom: 1px solid #e6e9eb;
+}
+.el-table tr th:first-child {
+	padding-left: 30px !important;	
+}
+.el-table tr td:first-child {
+	border-left: 3px solid #fff;
+	padding-left: 30px !important;
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+    background: #fafafa;
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td {
+    background: #F6FAFE;
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td:first-child {
+    border-left: 3px solid #0f5bea;
+}
+.el-table::before {
+	height: 0px !important;
+}
+
+/*table无数据*/
+.el-table__empty-text {
+	width: 1.35rem !important;
+	height: 1.5975rem !important;
+	color: transparent !important;
+	background: url(/static/images/v4/noData.png) no-repeat;
+	background-size: contain;
+	margin: 30px 0;
+}
+
+/*弹窗统一样式*/
+.el-dialog {
+	border-radius: 2px !important;
+	overflow: hidden;
+}
+.dialog-del .el-dialog__header {
+	display: none;
+}
+.dialog-del .el-dialog__wrapper{
+	z-index: 2011;
+}
+.dialog-main .tip-img {
+	width: 64px;
+	height: 64px;
+	display: block;
+	margin: 25px auto;
+}
+.dialog-main .tip-p {
+	font-size: 18px;
+	color: #000;
+	letter-spacing: 0.53px;
+	line-height: 18px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.dialog-main .tip-p-sub {
+	font-size: 14px;
+	color: #666;
+	letter-spacing: 0.53px;
+	line-height: 14px;
+	text-align: center;
+}
+.dialog-main .el-input__icon {
+    line-height: 0.39rem;
+}
+.el-form-item__label {
+	color: #333  !important;
+}
+.el-dialog__wrapper {
+	background-color:rgba(0,0,0,0.4);
+	z-index: 1999;
+}
+.el-dialog__header {
+	height: 20px;
+    padding: 0 !important;
+}
+.el-dialog__title {
+    line-height: 20px !important;
+    padding-left: .2rem;
+    font-size: 18px !important;
+    color: #000 !important;
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+    user-select: text !important;
+}
+.el-dialog__headerbtn {
+    height: 20px !important;
+    line-height: 20px !important;
+    font-size: 20px !important;
+}
+.el-dialog__headerbtn .el-dialog__close {
+	color: #666 !important;
+}
+.el-dialog__body {
+	padding: 0 !important;
+}
+.dialog-main {
+	text-align: left;
+	padding: 20px;
+}
+.dialog-main .form-title {
+	font-family: SourceHanSansCN-Regular;
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: 10px;
+	color: #666666;
+	letter-spacing: 0.47px;
+	display: flex;
+}
+.dialog-main .el-input input {
+	border: 1px solid #E8EAEF;
+	border-radius: 0px;
+	font-size: 12px;
+	color: #666;
+	height: 36px;
+	line-height: 36px;
+}
+.dialog-main .el-textarea textarea  {
+	border: 1px solid #E8EAEF;
+	border-radius: 0px;
+	font-size: 12px;
+	color: #666;
+	resize: none;
+	height: 118px;
+}
+
+/*el-radio*/
+.el-radio__input.is-checked .el-radio__inner {
+	border-color: #0f5aeb !important;
+    background: #0f5aeb !important;
+}
+.el-radio__input.is-checked+.el-radio__label {
+	color: #0f5aeb !important;
+}
+
+.el-loading-spinner {
+    /*这个是自己想设置的 gif 加载动图*/
+    background-image:url('/static/images/v4/loading.gif');
+    background-repeat: no-repeat;
+    background-size: 80px  80px;
+    height:80px;
+    width:80px;
+    background-position:center;
+    top:40% !important;
+}
+.el-loading-spinner .circular {
+    /*隐藏 之前 element-ui 默认的 loading 动画*/
+    display: none; 
+} 
+.el-loading-spinner .el-loading-text {
+	color: #0f5bea !important;
+    margin-top: 90px !important;
+}
+
+.el-notification__content p {
+	word-break: break-all !important;
+}
+.container_top_popover.el-popover {
+    min-width: 70px !important;
+    padding: 0 !important;
+    text-align: center;
+}
+.container_top_popover.el-popover .operator-user-div {
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+	font-size: .15rem;
+}
+
+/*checkout-input*/
+.module-list-table .el-checkbox__input.is-checked+.el-checkbox__label {
+	color: #0f5bea !important;
+}
+.module-list-table .el-checkbox.is-bordered.is-checked {
+	border-color: #0f5bea !important;
+}
+.module-list-table .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+	background-color: #0f5bea !important;
+    border-color: #0f5bea !important;
+}
+.module-list-table .el-checkbox__label {
+	padding-left: 5px !important;
+}
+.module-list-table .el-checkbox.is-bordered.el-checkbox--small {
+	padding: 2px 5px !important;
+    border-radius: 1px !important;
+    height: 27px !important;
+}
+.div-height .el-checkbox {
+	display: block;
+}
+.el-cascader-node .el-checkbox__input.is-checked .el-checkbox__inner {
+	background-color: #0f5bea;
+    border-color: #0f5bea;
+}
+.el-cascader-node.in-active-path, .el-cascader-node.is-active, .el-cascader-node.is-selectable.in-checked-path {
+	color: #0f5bea !important;
+}
+
+
+.apply-api .code{
+    font-family: "Courier New","Menlo","Liberation Mono","Consolas","andale mono","lucida console",monospace;
+    font-size: 12px !important;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.apply-api .code *{
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.apply-api .code h5{
+    padding: 0 20px;
+    margin: 0;
+    background-color: #e4e4e4;
+    color: #555;
+    height: 36px;
+    line-height: 36px;
+}
+.apply-api .code .key{
+    color: #ec266c;
+}
+.apply-api .code .str{
+    color: #e6d05f;
+}
+.apply-api .code .cls{
+    color: #5fcfe7;
+}
+.apply-api .code .fun{
+    color: #98cf2c;
+}
+.apply-api .code .ope{
+    color:brown;
+}
+.apply-api .code .arg{
+    color:#db8b20;
+}
+.apply-api .code .num{
+    color: #5f64e0;
+}
+.apply-api .code .com{
+    color: #888;
+}
+.apply-api .code ol{
+    background-color: #151a3b;
+    color: #d3d3d3;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+.apply-api .code ol li{
+    line-height: 150%;
+    border-left: 3px solid #2a2f55;
+    padding: 0 0 0 8px;
+    white-space: pre-wrap;
+    word-wrap: normal;
+}
+.apply-api .code ol li:first-child{
+    padding-top: 6px;
+}
+.apply-api .code ol li:last-child{
+    padding-bottom: 6px;
+}
+
+.api-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 8px;
+    line-height: 16px;
+}
+.api-content {
+    font-size: 14px;
+    line-height: 14px;
+    color: #000;
+    margin-bottom: 15px;
+}

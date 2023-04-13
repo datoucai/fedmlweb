@@ -1,0 +1,14 @@
+{
+	"initOptions":{
+		"url": "http://192.168.88.4:8080",
+		"realm": "master",
+		"clientId": "cryptowerclient",
+		"onLoad": "login-required"
+	},
+	"MANAGE_BASE_URL":"/platform",
+	"PROJECT_URL":"/department",
+	"TASK_URL":"/department",
+	"MANAGE_URL":"/console",
+	"BASE_URL":"/fedmlclient",
+	"duration":1500
+}
